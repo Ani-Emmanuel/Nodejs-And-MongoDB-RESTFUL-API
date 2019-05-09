@@ -8,7 +8,7 @@ const db = require("./db");
 //creating Instance of the Express class
 const app = express();
 
-//Adding/requiring the User and Product classes in your express Object/Instance
+//Adding/requiring the User and Product and Authentication classes in your express Object/Instance
 app.use(Ucontroller);
 app.use(Pcontroller);
 

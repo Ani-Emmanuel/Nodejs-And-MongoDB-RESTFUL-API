@@ -1,4 +1,6 @@
+require("dotenv/config");
 const mongoose = require("mongoose");
-mongoose.connect("Put your mongo DB connection String here", {
+
+mongoose.connect(process.env.MONGODB_CONNETION, {
   useNewUrlParser: true
 });
